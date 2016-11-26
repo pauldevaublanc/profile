@@ -54,6 +54,8 @@ a:hover{
 }
 #movies img{
   width: 80px;
+  border-radius: 5px;
+   box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.3);
 }
 #movies td{
   padding: 10px;
@@ -85,6 +87,18 @@ a:hover{
   padding-left: 0;
 }
 
+.fa-facebook:hover{
+  color: #233E6B;
+}
+
+.fa-twitter:hover{
+  color:#55ACED;
+}
+
+.fa-linkedin:hover{
+  color:#0076B3;
+}
+
 .list-inline li {
   display: inline-block;
   padding: 20px;
@@ -104,4 +118,46 @@ a:hover{
 .btn-clic:hover{
   background-color: #2a8230;
   color: white;
+}
+
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color:#788188;
+}
+
+#sidebar a:hover {
+  color: white;
+}
+
+.fa-heart:hover{
+  color: red;
+}
+
+.fa-star:hover{
+  color: yellow;
+}
+
+.fa-share:hover{
+  color: grey;
 }
