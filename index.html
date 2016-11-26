@@ -15,9 +15,21 @@
   </head>
 
   <body>
+
+  <div id="sidebar">
+    <ul>
+      <li><a href="#profile"><i class="fa fa-info-circle"></i></a></li>
+      <li>
+      <a href="#movies"><i class="fa fa-file-video-o"></i></a></li>
+      <li>
+      <a href="#footer"><i class= "fa fa-life-ring"></i></a></li>
+    </ul>
+
+  </div>
+
     <img src="pictures/profile_picture.jpg" alt="Paul de Vaublanc" id="img-profile" class="img-circle">
     <div class="container">
-      <div class="card text-center">
+      <div class="card text-center" id="profile">
 
         <h1>Paul de Vaublanc</h1>
         <h2>Etudiant @Le Wagon</h2>
@@ -33,8 +45,9 @@
           <li><i><a href="http://linkedin.com" target="_blank" class="fa fa-linkedin"></a></i></li>
           <li><i><a href="http://twitter.com" target="_blank" class="fa fa-twitter"></a></i></li>
         </ul>
+
       </div>
-      <div class="card text-center">
+      <div class="card text-center" id="movies">
         <h2>Spoilers</h2>
         <table id="movies">
           <tbody>
@@ -59,7 +72,7 @@
           </tbody>
         </table>
       </div>
-      <div class="card text-center">
+      <div class="card text-center" id="footer">
         <h2>A propos</h2>
         <p>This page has been coded during the <a href="http://lewagon.org/program" target="_blank">FullStack program @LeWagon</a>.</p>
         <ul class="list-inline">

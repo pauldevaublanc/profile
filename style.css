@@ -55,7 +55,7 @@ a:hover{
 #movies img{
   width: 80px;
   border-radius: 5px;
-   box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.3);
 }
 #movies td{
   padding: 10px;
@@ -110,7 +110,7 @@ a:hover{
 
 .btn-clic{
   background-color: lightgreen;
-  color: white;
+  color: black;
   font-weight: 500;
   padding: 10px;
   border-radius: 4px;
@@ -121,12 +121,12 @@ a:hover{
 }
 
 #sidebar {
-  background-color: #384047;
+  background-color: rgba(50, 50, 50, 0.5);
   position: fixed;
   left: 0px;
   top: 0px;
   bottom: 0px;
-  width: 120px;
+  width: 80px;
   text-align: center;
 }
 
@@ -146,7 +146,7 @@ a:hover{
   color:#788188;
 }
 
-#sidebar a:hover {
+#sidebar i:hover {
   color: white;
 }
 
